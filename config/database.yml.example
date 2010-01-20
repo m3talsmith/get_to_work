@@ -1,0 +1,17 @@
+development:
+  adapter: mongodb
+  host: localhost
+  database: gettowork_development
+ 
+test: &TEST
+  adapter: mongodb
+  host: localhost
+  database: gettowork_test
+ 
+production:
+  adapter: mongodb
+  host: localhost
+  database: gettowork
+ 
+cucumber:
+  <<: *TEST
