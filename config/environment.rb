@@ -7,10 +7,12 @@ Rails::Initializer.run do |config|
     :version => "~> 4.2.2"
   config.gem 'haml',
     :version => '~> 2.2.0'
-  config.gem 'jnunemaker-mongomapper', 
-    :lib => 'mongomapper', 
-    :source => 'http://gems.github.com', 
-    :version => '~> 0.3.5'
+  config.gem 'mongo',
+    :source => 'http://gemcutter.org',
+    :version => '~> 0.18.2'
+  config.gem 'mongo_mapper',
+    :source => 'http://gemcutter.org', 
+    :version => '~> 0.4.0'
   config.gem 'mongo_mapper_generators'
   config.gem 'chriseppstein-compass', 
     :lib => 'compass',
