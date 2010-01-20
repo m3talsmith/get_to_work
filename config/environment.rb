@@ -17,6 +17,8 @@ Rails::Initializer.run do |config|
     :lib => 'compass',
     :source => 'http://gems.github.com', 
     :version => '~> 0.8.17'
+  config.gem 'warden'
+  config.gem 'devise'
     
   config.frameworks -= [ :active_record, :active_resource, :action_mailer ]
   
