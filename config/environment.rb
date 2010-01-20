@@ -11,8 +11,7 @@ Rails::Initializer.run do |config|
     :source => 'http://gemcutter.org',
     :version => '~> 0.18.2'
   config.gem 'mongo_mapper',
-    :source => 'http://gemcutter.org', 
-    :version => '~> 0.4.0'
+    :source => 'http://gemcutter.org'
   config.gem 'mongo_mapper_generators'
   config.gem 'chriseppstein-compass', 
     :lib => 'compass',
