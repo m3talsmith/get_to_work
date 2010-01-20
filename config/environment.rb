@@ -11,6 +11,7 @@ Rails::Initializer.run do |config|
     :lib => 'mongomapper', 
     :source => 'http://gems.github.com', 
     :version => '~> 0.3.5'
+  config.gem 'mongo_mapper_generators'
   config.gem 'chriseppstein-compass', 
     :lib => 'compass',
     :source => 'http://gems.github.com', 
