@@ -1,1 +1,45 @@
 h1. get to work roadmap
+
+h2. First things first
+
+When I named this get to work, I did not mean work in the sense of wage slavery. I saw this as an opportunity to do what we want to do, build communities or teams around that, and work out mutually beneficial deals between the community/teams and possible clients. I know that this is not a perfect approach, but I believe it is a good step forward out of capitalism and out of wage slavery.
+
+This is also an opportunity for people to come together who work well together. Affinity groups if you wish to call them that. These small groups will be able to forward our cause far faster, and with less effort and more zeal, than our current morass I believe.
+
+But, this is a community project in and of itself. My goals are not going to over ride any others goals. I've started this, and I'm turning it entirely over to everyone. Do what you want to do with this. You can fork it, help it, or ignore it - or you may find something entirely different. I'm very interested in where everyone takes this tool.
+
+Now, with out further ado, I give you the tentative phases.
+
+h2. Phase 1: hello user
+
+In phase 1 I plan on getting the basic user registration and login structure up. Nothing less, nothing more.
+
+h2. Phase 2: hello comrades
+
+This should be obvious: this is the phase where I think that communities or teams should be built. Affinity groups as I stated above.
+
+h2. Phase 3: hello projects
+
+In this phase we should be able to add, edit, view, and list all the projects available on the site. We should also be able to sort projects by communities or teams.
+
+h2. Phase 4: your preference sir?
+
+I would like this phase to focus on various preferences for users (such as a private whitelist mode), affinity groups, and projects. This will need to be hashed out and tested pretty well before we move on.
+
+h2. Phase 5: what do you want?!
+
+We can start inviting people in at this point; outsiders if you will.
+
+h2. Phase 6: the market or barter? which will it be?
+
+I would like to get our commerce, share, and barter systems (e-systems) set up here. I think this can be split up in to sub phases following the same order as the previous phases:
+
+# user interactions
+# affinity group interactions
+# project interactions
+# preferences for e-system interactions
+# outsider interactions
+
+h2. To summarize
+
+We've got a hell of a lot of work to make this a reality. Who's with me?
