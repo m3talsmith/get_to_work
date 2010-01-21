@@ -1,3 +1,0 @@
-h1. Rant
-
-I started a project called barter which was geared towards creating an open barter system, but now I've decided to make an all out syndicate for people. That's basically what get_to_work is; a syndicate to help people co-op on jobs.
