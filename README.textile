@@ -1,3 +1,5 @@
 h1. Rant
 
 I started a project called barter which was geared towards creating an open barter system, but now I've decided to make an all out syndicate for people. That's basically what get_to_work is; a syndicate to help people co-op on jobs.
+
+The network idea has since moved on towards a co-op micro-work project. I'm hoping to produce a business model where people do work in the smallest chunks possible, that several people can do the same task and get paid for it, and that the best work is picked to for production. I imagine that this will be able to extend in to other trades outside of the tech realm. I'm hoping that this can be used for things as simple as getting meals prepared, etc.
