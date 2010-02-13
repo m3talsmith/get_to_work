@@ -19,5 +19,6 @@ class Person
   
   has_many :emails
   
-  # validates_presence_of :login
+  validates_presence_of :login
+  validates_presence_of :password
 end
