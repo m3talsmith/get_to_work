@@ -3,4 +3,11 @@
   %head
     %title get to work
   %body
-    = yield
+    #site
+      #header
+        %h1 Get To Work
+        .menu
+          = link_to "sign in", new_person_session_path
+          = link_to "register", new_person_path
+      #content
+        = yield

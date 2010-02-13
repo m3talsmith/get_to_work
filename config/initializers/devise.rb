@@ -11,11 +11,12 @@ Devise.setup do |config|
   config.all = [:authenticatable, :confirmable, :recoverable, :rememberable, :trackable, :validatable]
 
   # Configure the e-mail address which will be shown in DeviseMailer.
-  config.mailer_sender = "please-change-me@config-initializers-devise.com"
+  config.mailer_sender = "michael@theurbanrebellion.com"
 
   # Invoke `rake secret` and use the printed value to setup a pepper to generate
   # the encrypted password. By default no pepper is used.
   # config.pepper = "rake secret output"
+  config.pepper = "59883d5f13e030236e836a601058805d9309c03fdb93abd87a67a7c2e6f66c622a647beac5eb94444b032125c7f438a980e99a225f143efe3ccde559199eb2fb"
 
   # Configure how many times you want the password is reencrypted. Default is 10.
   # config.stretches = 10
@@ -32,7 +33,7 @@ Devise.setup do |config|
   # authenticating an user, both parameters are required. Remember that those
   # parameters are used only when authenticating and not when retrieving from
   # session. If you need permissions, you should implement that in a before filter.
-  # config.authentication_keys = [ :email ]
+  config.authentication_keys = [ :login ]
 
   # The time you want give to your user to confirm his account. During this time
   # he will be able to access your application without confirming. Default is nil.
@@ -46,7 +47,7 @@ Devise.setup do |config|
   # config.timeout_in = 10.minutes
 
   # Load and configure the ORM. Supports :active_record, :data_mapper and :mongo_mapper.
-  # require 'devise/orm/mongo_mapper'
+  require 'devise/orm/mongo_mapper'
   config.orm = :mongo_mapper
 
   # Turn scoped views on. Before rendering "sessions/new", it will first check for

@@ -1,0 +1,12 @@
+- form_for :person, person, :url => url, :html => {:method => method} do |person|
+
+  .field
+    = person.label :login
+    = person.text_field :login
+  
+  .field
+    = person.label :password
+    = person.password_field :password
+    
+  .actions
+    = submit_tag "save"

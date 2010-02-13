@@ -2,6 +2,13 @@ class Person
   include MongoMapper::Document
   devise :authenticatable, :recoverable, :rememberable
   
+  # -- Devise Keys --
+    key :authenticatable
+    key :recoverable
+    key :rememberable
+    key :remember_me
+  # --
+  
   key :login, String
   key :encrypted_password, String
   key :password_salt, String
@@ -10,5 +17,7 @@ class Person
   timestamps!
   userstamps!
   
-  validates_presence_of :login
+  has_many :emails
+  
+  # validates_presence_of :login
 end

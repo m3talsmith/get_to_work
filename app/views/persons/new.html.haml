@@ -1,0 +1,3 @@
+%h1 Register a New Person
+
+= render :partial => "form", :locals => {:url => persons_path, :person => Person.new, :method => :post}
